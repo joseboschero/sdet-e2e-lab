@@ -1,0 +1,36 @@
+{
+  "name": "sdet-e2e-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api:mock": "node mock-api/server.js",
+    "test:pw": "playwright test",
+    "test:pw:report": "playwright show-report",
+    "test:cy": "cypress run",
+    "test:bdd": "cucumber-js",
+    "test:all": "npm run test:pw && npm run test:cy && npm run test:bdd"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.6.0",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.3",
+    "@typescript-eslint/eslint-plugin": "^8.55.0",
+    "@typescript-eslint/parser": "^8.55.0",
+    "cypress": "^15.10.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-playwright": "^2.5.1",
+    "express": "^5.2.1",
+    "json-server": "^1.0.0-beta.5",
+    "prettier": "^3.8.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,11 @@
+
+> sdet-e2e-lab@1.0.0 test:bdd
+> cucumber-js
+
+(node:68980) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+..........
+
+2 scenarios (2 passed)
+6 steps (6 passed)
+0m06.495s (executing steps: 0m06.488s)

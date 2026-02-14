@@ -1,0 +1,7 @@
+{
+  "default": {
+    "import": ["tests/bdd/steps/**/*.ts"],
+    "loader": ["ts-node/esm"],
+    "paths": ["tests/bdd/features/**/*.feature"]
+  }
+}

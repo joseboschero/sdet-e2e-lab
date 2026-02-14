@@ -1,0 +1,17 @@
+{
+  "users": [
+    { "id": 1, "email": "george.bluth@reqres.in", "first_name": "George", "last_name": "Bluth" },
+    { "id": 2, "email": "janet.weaver@reqres.in", "first_name": "Janet", "last_name": "Weaver" },
+    { "id": 3, "email": "emma.blanton@reqres.in", "first_name": "Emma", "last_name": "Blanton" },
+    { "id": 4, "email": "michael.lawson@reqres.in", "first_name": "Michael", "last_name": "Lawson" },
+    { "id": 5, "email": "lindsay.ferguson@reqres.in", "first_name": "Lindsay", "last_name": "Ferguson" },
+    { "id": 6, "email": "tobias.funke@reqres.in", "first_name": "Tobias", "last_name": "Funke" },
+    { "id": 7, "email": "byron.holt@reqres.in", "first_name": "Byron", "last_name": "Holt" },
+    { "id": 8, "email": "rachel.howell@reqres.in", "first_name": "Rachel", "last_name": "Howell" },
+    { "id": 9, "email": "michael.lawson@reqres.in", "first_name": "Michael", "last_name": "Lawson" },
+    { "id": 10, "email": "lindsay.ferguson@reqres.in", "first_name": "Lindsay", "last_name": "Ferguson" },
+    { "id": 11, "email": "tobias.funke@reqres.in", "first_name": "Tobias", "last_name": "Funke" },
+    { "id": 12, "email": "byron.holt@reqres.in", "first_name": "Byron", "last_name": "Holt" },
+    { "id": 13, "email": "rachel.howell@reqres.in", "first_name": "Rachel", "last_name": "Howell" }
+  ]
+}
