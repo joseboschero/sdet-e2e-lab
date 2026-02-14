@@ -22,8 +22,8 @@ jobs:
 
       - name: Start mock API
         run: |
-          npm run api:mock &
-          npx wait-on http://127.0.0.1:3001
+          nohup npm run api:mock > mock-api.log 2>&1 &
+          npx wait-on http://127.0.0.1:3001/api/users
 
       - name: Run Playwright tests
         run: npm run test:pw
