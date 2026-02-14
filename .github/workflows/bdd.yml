@@ -1,0 +1,31 @@
+name: BDD Cucumber Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  bdd:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+
+      - name: Run BDD tests
+        run: npm run test:bdd
+
+      - name: Upload BDD screenshot (if exists)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bdd-artifacts
+          path: bdd-failure.png
