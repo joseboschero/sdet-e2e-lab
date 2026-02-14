@@ -20,6 +20,11 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
+      - name: Start mock API
+        run: |
+          npm run api:mock &
+          npx wait-on http://127.0.0.1:3001
+
       - name: Run Playwright tests
         run: npm run test:pw
 
